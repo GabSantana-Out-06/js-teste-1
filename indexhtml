@@ -20,22 +20,3 @@ function setup() {
   background(" GREEN");
 }
 
-function draw() {
-
-  stroke('black');
-  fill('yellow')
-  
-  //console.log(mouseIsPressed)
-  
-  if(mouseIsPressed){}
-  rect(mouseX,mouseY,20,35);
-  
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-}
